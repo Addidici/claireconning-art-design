@@ -1,0 +1,126 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+body {
+    padding-top: 140px;
+    font-family: "Amasis MT Std Light";
+    font-size: 1.1rem;
+}
+
+:root {
+  --cardblue-a: #72abb2;
+  --cardblue-b: #a1cad0;
+  --cardblue-c: #d0e4e7;
+
+  --homeorange-top: #f6d6bf;
+
+}
+
+.card-a {
+  background-color: var(--cardblue-a);
+}
+
+
+.card-b {
+  background-color: var(--cardblue-b);
+}
+
+
+.card-c {
+  background-color: var(--cardblue-c);
+}
+
+
+
+.homerow-top {
+  background-color: var(--homeorange-top);
+}
+
+
+.homerow-commissions{
+    background-color: #61adb3;
+}
+.subrow-commissions{
+    background-color: #b0d6d9;
+}
+.homerow-graphic-design{
+    background-color: #97cbd1;
+}
+.subrow-graphic-design{
+    background-color: #cbe5e8;
+}
+
+.homerow-art-collections{
+    background-color: #cbe5e8;
+}
+
+.homerow-meet-the-artist{
+    background-color: #61adb3;
+}
+
+.homerow-testimonials{
+    background-color: #fbbc8d;
+}
+
+.homerow-get-in-touch{
+    background-color: #f99951;
+}
+
+.subrow-get-in-touch{
+    background-color: #fcd6bc;
+}
+
+
+
+
+
+
+.footer{
+  background: var(--cardblue-c);
+
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'cochocib-script-latin-pro';
+  src: url('/static/home/cochocib-script-latin-pro.ttf') format('truetype');
+}
+
+.logo-font {
+  font-family: 'cochocib-script-latin-pro';
+}
+
+.section-header-font {
+  font-family: 'cochocib-script-latin-pro';
+  font-size: 90px;
+  font-weight: 300;
+
+}
+
+@media (max-width: 991px) {
+    .section-header-font {
+      font-family: 'cochocib-script-latin-pro';
+      font-size: 50px;
+      font-weight: 600;
+
+    }
+}
+
+
+.subrow-font {
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.card-carousel {
+    width: 100%;
+    min-height: 250px;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.testimony-card{
+    background-color: #fcd6bc;
+}
